@@ -1,0 +1,28 @@
+.blog-section{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+
+    .card{
+        transition: .4s;
+        border: none;
+
+        &:hover{
+            transform: scale(1.1); 
+            box-shadow: 2px 6px 5px black; 
+        }
+        .card-body{
+            color: $text_color;
+            background-color: $secondary_color;
+        }
+        .card-footer{
+            color: $text_color;
+            background-color: $card_footer_color;
+
+            img{
+                width: 40px;
+                border-radius: 50%;
+            }
+        }
+    }
+}

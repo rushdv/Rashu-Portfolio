@@ -1,0 +1,64 @@
+/*================= variables section starts here ================*/
+@import "./variables";
+/*================= variables section ends here ================*/
+
+
+
+/*================= common styles starts here ================*/
+@import "./common-styles";
+/*================= common styles ends here ================*/
+
+
+
+/*================= header section starts here ================*/
+@import "./header";
+/*================= header section ends here ================*/
+
+
+
+/*================= main section starts here ================*/
+/*================= about section starts here ================*/
+@import "./about-section";
+/*================= about section ends here ================*/
+
+/*================= secvice section starts here  ================*/
+@import "./service-section";
+/*================= secvice section ends here  ================*/
+
+/*================= counter section starts here  ================*/
+@import "./counter-section";
+/*================= counter section ends here  ================*/
+
+/*================= portfolio section starts here  ================*/
+@import "./portfolio-section";
+/*================= portfolio section ends here  ================*/
+
+/*================= carousel section starts here  ================*/
+@import "./carousel-section";
+/*================= carousel section ends here  ================*/
+
+/*================= blog section starts here  ================*/
+@import "./blog-section";
+/*================= blog section ends here ================*/
+
+/*================= contact section starts here ================*/
+@import "./contact-section";
+/*================= contact section ends here ================*/
+/*================= main section ends here ================*/
+
+
+
+/*================= footer section starts here ================*/
+footer{
+    padding: 15px;
+    background-color: $secondary_color;
+}
+/*================= footer section ends here ================*/
+
+/*================= animation section starts here ================*/
+@import "./animation";
+/*================= animation section ends here ================*/
+
+/*================= responsive section starts here ================*/
+@import "./responsive";
+/*================= responsive section ends here ================*/

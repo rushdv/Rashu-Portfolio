@@ -1,0 +1,30 @@
+.carousel-section{
+    background-image: linear-gradient(#2d4059cb,#2d4059e3),url(../images/02.jpg);
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+
+    .carousel-div{
+        margin: 0 auto;
+
+        .carousel{
+            margin: 0 auto;
+            width: 100%;
+
+            .carousel-item{
+                text-align: center;
+                padding: 7% 15%;
+                font-size: 1.2rem;
+
+                .carousel-img{
+                    width: 120px;
+                    height: auto;
+                    margin-bottom: 5px;
+                    width: 10%;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                } 
+            }
+        }
+    }
+}

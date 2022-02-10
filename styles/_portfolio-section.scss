@@ -1,0 +1,19 @@
+.portfolio-section{
+    width: 70%;
+    margin: 0 auto;
+
+    .card{
+        transition: 3s;
+        border: none;
+        border-radius: 5px;
+        overflow: hidden;
+
+        &:hover img{
+            transform: scale(1.2);  
+        } 
+        .card-body{
+            color: $text_color;
+            background-color: $secondary_color;
+        }
+    }
+}

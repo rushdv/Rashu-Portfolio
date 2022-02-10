@@ -1,0 +1,20 @@
+.contact-section{
+    color: $text_color;
+    background-color: $secondary_color;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-top: 10rem !important; 
+    padding: 5rem;
+    border-radius: 10px;
+
+    .contact-icon{
+        a{
+            padding: 10px;
+            font-size: 2rem;
+        }
+    }
+    button{
+        background-color: $primary_color;
+    }
+}

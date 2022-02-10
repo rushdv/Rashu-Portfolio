@@ -1,0 +1,48 @@
+header{
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .navbar{
+        padding: 1% 10%;
+        background-color: $nav_color;
+
+        .navbar-icon{
+            color: $text_color;
+        }
+        .navbar-brand{
+            img{
+                width: 60px;
+                height: auto;
+            }
+        }
+        .nav-link{
+            color: $text_color;
+            margin: 10px;
+            border-radius: 5px;
+            transition: .4s;
+
+            &:hover{
+                background: $primary_color;
+                color: $text_color;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .banner-container{
+        height: 100vh;
+
+        h1{
+            font-size: 3.5rem; 
+            color: $primary_color;
+            text-shadow: 5px 5px 5px #000;
+        }
+        .name-text{
+            font-size: 25px;
+            letter-spacing: 10px;
+            text-shadow: 4px 4px 5px $primary_color;
+        }
+    }
+}

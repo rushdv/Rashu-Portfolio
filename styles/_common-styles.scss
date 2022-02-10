@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.body{ 
+    background-color: $body_color;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h1{
+    font-size: 3rem;
+    color: #EEEEEE;
+    text-shadow: 5px 5px 5px  black;
+    letter-spacing: 4px;
+}  
+
+.section-gap{
+    margin-top: 8rem;
+}
+
+.section-gap-mb{
+    margin-bottom: 8rem;
+}
