@@ -5,8 +5,9 @@ header{
     background-size: cover;
 
     .navbar{
+        width: 100%;
         padding: 1% 10%;
-        background-color: $nav_color;
+        background-color: $nav_color;  
 
         .navbar-icon{
             color: $text_color;
