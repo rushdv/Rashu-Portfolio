@@ -206,6 +206,16 @@ header .banner-container .name-text {
 .portfolio-section .card:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio-section .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .portfolio-section .card .card-body {
