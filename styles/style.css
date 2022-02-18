@@ -41,7 +41,9 @@ header {
 header .navbar {
   width: 100%;
   padding: 1% 10%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(2, 4, 29, 0.979);
+  position: fixed;
+  z-index: 100;
 }
 
 header .navbar .navbar-icon {

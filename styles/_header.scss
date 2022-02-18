@@ -8,6 +8,8 @@ header{
         width: 100%;
         padding: 1% 10%;
         background-color: $nav_color;  
+        position: fixed;
+        z-index: 100; 
 
         .navbar-icon{
             color: $text_color;
